@@ -1,17 +1,8 @@
-import {
-  About,
-  Explore,
-  Feedback,
-  GetStarted,
-  Hero,
-  Insights,
-  WhatsNew,
-  World,
-} from "../sections";
+import { Block } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
-    <Hero />
+  <div className="bg-primary-black">
+    <Block />
   </div>
 );
 
